@@ -7,7 +7,7 @@
 # Mail Server #
 ###############
 
-# mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
+mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
 # mail.host: 'localhost'
 # mail.port: 25
 # mail.username: ''
@@ -15,6 +15,14 @@
 # mail.use-tls: false
 # The email address to send on behalf of
 # mail.from: 'root@localhost'
+
+mail.host: 'smtp.sendgrid.net'
+mail.port: 587
+mail.username: 'getanywhere'
+mail.password: 'Mz7mo4Dsjmed'
+mail.use-tls: true
+# The email address to send on behalf of
+mail.from: 'admin@getanywhere.io'
 
 # If you'd like to configure email replies, enable this.
 # mail.enable-replies: false
