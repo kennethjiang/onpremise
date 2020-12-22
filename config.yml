@@ -16,13 +16,13 @@ mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
 # The email address to send on behalf of
 # mail.from: 'root@localhost'
 
-mail.host: 'smtp.sendgrid.net'
+mail.host: 'email-smtp.us-east-1.amazonaws.com'
 mail.port: 587
-mail.username: 'getanywhere'
-mail.password: 'Mz7mo4Dsjmed'
+mail.username: 'AKIAWGBB4BM7ICPK4R7I'
+mail.password: 'BG5rIFeDzB9KZ23Db6UJq7E4+ryV4fAW4p67URu4a9iE'
 mail.use-tls: true
 # The email address to send on behalf of
-mail.from: 'admin@getanywhere.io'
+mail.from: 'support@thespaghettidetective.com'
 
 # If you'd like to configure email replies, enable this.
 # mail.enable-replies: false
